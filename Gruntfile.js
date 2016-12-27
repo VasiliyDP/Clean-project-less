@@ -42,7 +42,7 @@ module.exports = function(grunt) {
                 separator: ';',
             },
             dist: {
-                src: ['development/libs/**/*.js', 'development/js/custom.js'],
+                src: ['development/libs/jquery/jquery-3.1.1.js', 'development/libs/**/*.js', 'development/js/custom.js'],
                 dest: 'development/js/concat_scripts.js',
             },
         },
