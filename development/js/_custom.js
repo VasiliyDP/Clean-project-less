@@ -4,4 +4,3 @@
  */
 
 // Place for your scripts
-console.log('custom');
