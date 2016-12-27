@@ -8,5 +8,5 @@ All configured with grunt.<br/>
     <li>Add your custome js code to development/js/custom.js it will concat to development/js/concat_scripts.js</li>
     <li>Then all scripts from development/js/concat_scripts.js uglify to scripts/scripts.min.js</li>
     <li>All styles compile to css/styles.css</li>
-    <li>To rub use "grunt" in terminal<li/>
+    <li>To run use "grunt" in terminal<li/>
 </ul>
