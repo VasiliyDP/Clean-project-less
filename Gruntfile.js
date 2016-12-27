@@ -14,7 +14,7 @@ module.exports = function(grunt) {
                     optimization: 2
                 },
                 files: {
-                    "css/main.css": "development/less/main.less"
+                    "css/main.css": "development/less/_main.less"
                 }
             }
         },
@@ -42,7 +42,7 @@ module.exports = function(grunt) {
                 separator: ';',
             },
             dist: {
-                src: ['development/libs/jquery/jquery-3.1.1.js', 'development/libs/**/*.js', 'development/js/custom.js'],
+                src: ['development/libs/jquery/jquery-3.1.1.js', 'development/libs/**/*.js', 'development/js/_custom.js'],
                 dest: 'development/js/concat_scripts.js',
             },
         },
